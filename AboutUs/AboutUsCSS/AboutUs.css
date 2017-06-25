@@ -1,0 +1,109 @@
+html, body {height: 100%;}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #9096a0;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #7c7e82;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+}
+
+h2{
+    font-family: sans-serif;
+    color: #7c7e82;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black, 0 0 15px blue, 0 0 5px darkblue;
+    text-align: center;
+}
+
+h4{
+    font-family: sans-serif;
+    color: #7c7e82;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black, 0 0 15px blue, 0 0 5px darkblue;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: darkblue;
+    
+}
+
+iframe {
+    padding-top: 300px;
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    bottom: 0px;
+    
+}
+
+fieldset {
+    padding: 5px;
+    text-align: center;
+    margin-left: 0px;
+    height: 280px;
+    width: 450px;
+    position: fixed;
+
+}
+
+.note {
+    color: red;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-bottom: 5px;
+    
+}
+
+
+.formOne {
+    display: block;
+    width: 400px;
+    height: 400px;
+    text font-family: sans-serif;
+    margin: 15px;
+    margin-left: 600px;
+}
+
+.button {
+    background-color: #01307c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.submit {
+    height: 40px;
+    width: 60px;
+}
+
+.reset {
+    height: 40px;
+    width: 60px;
+}
+
+.areasCovered{
+    text-align: center;
+    text font-family: sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+    <title>Gallery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="GalleryCSS\Gallery.css">	
+</head>
+
+<body>
+    <nav>
+        <a href="../Main.html" class="button">Home</a>
+        <a href="../Products_Services/Products & Services.html" class="button">Products & Services</a>
+        <a href="Gallery.html" class="button">Gallery</a>
+        <a href="../AboutUs/AboutUs.html" class="button">About Us</a>
+    </nav>
+
+<h1>Welcome at the Gallery</h1>
+
+<section>
+       <div id = "container">
+            <div id = "content">
+                <header></header>
+                <ul>
+                    <li><a href="Pictures\Pic1.jpg" rel="group" class= "fancybox"><img src="Pictures\Pic1.jpg"></a></li>
+                    <li><a href="Pictures\Pic2.jpg" rel="group" class= "fancybox"><img src="Pictures\Pic2.jpg"></a></li>
+                    <li><a href="Pictures\Pic3.jpg" rel="group" class= "fancybox"><img src="Pictures\Pic3.jpg"></a></li>
+                    <li><a href="Pictures\Pic4.jpg" rel="group" class= "fancybox"><img src="Pictures\Pic4.jpg"></a></li>
+                    <li><a href="Pictures\Pic5.jpg" rel="group" class= "fancybox"><img src="Pictures\Pic5.jpg"></a></li>
+                    <li><a href="Pictures\Pic6.jpg" rel="group" class= "fancybox"><img src="Pictures\Pic6.jpg"></a></li>
+                    <li><a href="Pictures\Pic7.jpg" rel="group" class= "fancybox"><img src="Pictures\Pic7.jpg"></a></li>
+                    <li><a href="Pictures\Pic8.jpg" rel="group" class= "fancybox"><img src="Pictures\Pic8.jpg"></a></li>
+                    <li><a href="Pictures\Pic9.jpg" rel="group" class= "fancybox"><img src="Pictures\Pic9.jpg"></a></li>
+                    <li><a href="Pictures\Pic10.jpg" rel="group" class= "fancybox"><img src="Pictures\Pic10.jpg"></a></li>
+                    <li><a href="Pictures\Pic11.jpg" rel="group" class= "fancybox"><img src="Pictures\Pic11.jpg"></a></li>
+                    <li><a href="Pictures\Pic12.jpg" rel="group" class= "fancybox"><img src="Pictures\Pic12.jpg"></a></li>
+                    <li><a href="Pictures\Pic13.jpg" rel="group" class= "fancybox"><img src="Pictures\Pic13.jpg"></a></li>
+                    <li><a href="Pictures\Pic14.jpg" rel="group" class= "fancybox"><img src="Pictures\Pic14.jpg"></a></li>
+                </ul>
+                <footer></footer>
+            </div>
+        
+       </div>
+
+</section>
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
+</body>
+
+</html>

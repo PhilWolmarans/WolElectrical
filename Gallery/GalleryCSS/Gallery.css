@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+article, aside, figure, footer, header, hgroup, menu, nav, section{
+    display: block;
+}
+
+body {
+    background-color: #9096a0;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #7c7e82;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+}
+
+header {
+    font-family: sans-serif;
+    color: #7c7e82;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 1300px;
+    height: 50px;
+}
+
+footer {
+    font-family: sans-serif;
+    color: #7c7e82;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 1000px;
+    height: 50px;
+    position: absolute;
+}
+
+#container {
+    width: 1500px;
+    margin-left: 70px;
+    margin-right: auto;
+    background-color: #9096a0;
+    border-radius: 10px;
+}
+
+#content {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content ul {
+    list-style-type: none;
+}
+
+#content li {
+    float: left;
+    width: 250px;
+    display: block;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+    margin: 10px 5px;
+    
+}
+
+img:hover {
+    width: 500px;
+    height: 400px;
+    margin: 10px 5px;
+    position: absolute;
+}
+
+.mySlides {
+    width: 20px;
+    
+}
+
+
+.button {
+    background-color: #01307c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+
+/*
+ *
+ * .wrapper {
+    width: 4500px;
+    margin: 0 auto;
+}
+
+.gallery-box{
+    overflow: hidden;
+    padding: 40px 0px;
+}
+
+.img-single {
+    width: 320px;
+    hight: 260px;
+    margin: 10px 5px;
+    float: left;
+    position: relative;
+}
+
+.img-single img {
+    width: 100%;
+    hight: 100% ;
+    /* position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.img-single:hover {
+    z-index: 5000px;
+}
+
+.img-single img:hover {
+    width: 150%;
+    hight: 150% ;
+    position: inherit;
+    top: -15%;
+    left: -15%;*/
